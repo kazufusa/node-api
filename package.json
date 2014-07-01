@@ -1,0 +1,23 @@
+{
+  "name": "node-api",
+  "version": "0.0.0",
+  "description": "API template using node.js.",
+  "main": "db.js",
+  "scripts": {
+    "test": "grunt simplemocha"
+  },
+  "author": "kazufusa",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^1.4.7",
+    "restify": "^2.8.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt": "^0.4.5",
+    "grunt-coffeelint": "0.0.10",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-simple-mocha": "^0.4.0"
+  }
+}
